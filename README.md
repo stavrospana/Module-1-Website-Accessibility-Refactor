@@ -1,2 +1,19 @@
-## module-1
-This is the first module assignment. I have taken the starter code and added changes to the index.html as well as the style.css to make the website function as intended. I first fixed the link that was broken on the Search Engine Optimization that would not redirect to the specified location. I then cleaned up the text in the style.css file and fixed the text issues that were overlapping the image and squishing the font to overlap.
+# Module 1 Weekly Challenge - Website Accessibility Refactor
+
+## Description
+
+ In the first week challenge we were tasked to perform asseccibility refactors and edit an existing websites code to meet modern accessibility standards by streamlining code,
+fixing bugs, and adding comments where needed.
+## Usage
+
+Deployed website:
+
+
+## Preview
+
+![image](https://github.com/stavrospana/module-1/assets/138176781/67bb5d1d-bc24-40b9-bbfd-c1f9f080f072)
+
+
+## License
+
+Operates under a standard MIT license, refer to the LICENSE file in the repository for more information.
