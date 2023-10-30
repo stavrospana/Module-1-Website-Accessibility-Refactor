@@ -1,0 +1,185 @@
+/*
+Stavros Panagiotopoulos (stavrospana)
+SCS Boot Camp Module 1 Weekly Challenge - Website Accessibility Refactor
+Created 2023/08/07
+Last Edited 2023/10/29
+/*
+
+/* sets all elements to have a padding and margin of 0 pixels*/
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* sets the background colour of the body */
+body
+{
+    background-color: #d9dcd6;
+}
+
+/* sets colour of links with no text decoration */
+a
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* sets paragraph text size */
+p
+{
+    font-size: 16px;
+}
+
+/* elements assigned to this class will appear on the left  */
+.float-left
+{
+    float: left;
+    margin-right: 25px;
+}
+
+/* elements assigned to this class will appear on the right  */
+.float-right
+{
+    float: right;
+    margin-left: 25px;
+}
+
+/* sets display settings for content in the header */
+.header
+{
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* displays h1 header elements as an inline block at font size 48 */
+.header h1
+{
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* changes the 'seo' in title 'Horiseon' to a different colour */
+.header h1 .seo
+{
+    color: #d9dcd6;
+}
+
+/* defines display settings of the secondary headers which list website sections */
+.header div
+{
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* defines list style type for unordered lists in header*/
+.header div ul
+{
+    list-style-type: none;
+}
+
+/* sets secondary headers  to be displayed as inline blocks 25px to left*/
+.header div ul li
+{
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* sets styling to the marketing meeting image and imports URL */
+.marketing-meeting-image
+{
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* defines display settings for the main website sections */
+.primary-content-blocks
+{
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* defines display settings for content in the main website sections */
+.primary-content-section
+{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* defines display settings for h2 headers in the main website sections */
+.primary-content-section h2
+{
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* defines display settings for images in the main website sections */
+.primary-content-section img
+{
+    max-height: 200px;
+}
+
+/* defines display settings for the benefits sidebar */
+.benefits-sidebar
+{
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+} 
+
+/* defines display settings for content within benefits section */
+.benefit-details
+{
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* defines display settings for benefits section h3 headers */
+.benefit-details h3
+{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* defines display settings for benefits section images */
+.benefit-details img
+{
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* defines display settings for footer content */
+.footer
+{
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* defines display size for h2 headers in footer */
+.footer h2
+{
+    font-size: 20px;
+}
