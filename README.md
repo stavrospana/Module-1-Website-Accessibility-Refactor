@@ -6,7 +6,7 @@
 fixing bugs, and adding comments where needed.
 ## Usage
 
-Deployed website: ![link](https://stavrospana.github.io/Module-1-Website-Accessibility-Refactor/#search-engine-optimization)
+Deployed website: https://stavrospana.github.io/Module-1-Website-Accessibility-Refactor/#search-engine-optimization
 
 
 ## Preview
