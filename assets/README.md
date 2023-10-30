@@ -1,2 +1,0 @@
-## module-1
-This is the first module assignment. I have taken the starter code and added changes to the index.html as well as the style.css to make the website function as intended. I first fixed the link that was broken on the Search Engine Optimization that would not redirect to the specified location. I then cleaned up the text in the style.css file and fixed the text issues that were overlapping the image and squishing the font to overlap.
